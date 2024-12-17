@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Resistration Form</h2>
+    <form>
+        <input type="text" placeholder="user name">
+        <br><br>
+        <input type="password" placeholder=" new password">
+        <br><br>
+        <input type="password" placeholder="Re-enter password">
+        <br>
+        <h4>Choose your present class</h4>
+        <label>
+            <input type="radio" value="Class XI" name="class" id="id1">Class XI
+        </label>
+        <br> 
+        <label>
+            <input type="radio" value="Class XII" name="class" id="id2">Class XII
+        </label>
+        <br>
+        <h4>Select your subjects</h4>
+        <label for="math">
+            <input type="checkbox" value="math" name="subject" id="101">Mathematics
+        </label>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="101">Physics
+        </label>
+        <label for="CS">
+            <input type="checkbox" value="CS" name="subject" id="101">Computer Science
+        </label>
+        <label for="Chem">
+            <input type="checkbox" value="Chem" name="subject" id="101">Chemistry
+        </label>
+        <label for="Bio">
+            <input type="checkbox" value="Bio" name="subject" id="101">Biology
+        </label>
+        <br>
+        <h4>Select your State</h4>
+        <select name="state" id="state">
+            <option value="select">select</option>
+            <option value="Assam">Assam</option>
+            <option value="Andra">Andra</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Keral">Keral</option>
+            <option value="Maharastra">Maharastra</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" placeholder="enter feedback"></textarea>
+        <br><br>
+        <input type="submit" value="submit" >
+    </form>
+</body>
+</html>
