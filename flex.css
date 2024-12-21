@@ -1,0 +1,43 @@
+*{
+    text-decoration:none;
+    color:black;
+}
+li{
+    list-style:none;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    background-color:aquamarine;
+    height: 50px;
+    width: 100%;
+}
+div{
+    height: 100px;
+    width:50px;
+    border:2px solid black;
+    display: inline-block;
+}
+body{
+    text-align: center;
+}
+#container{
+    height:200px;
+    width:800px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+#div1{
+    background-color:aqua;
+}
+#div2{
+    background-color:brown;
+}
+#div3{
+    background-color:blueviolet;
+}
+#div4{
+    background-color:darkolivegreen;
+}
