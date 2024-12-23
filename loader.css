@@ -1,0 +1,42 @@
+.div1{
+    text-align: center;
+    height:200px;
+    width:200px;
+    position:fixed;
+    top:30%;
+    left:40%;
+    border:20px solid transparent;
+    border-top:10px solid black;
+    border-style:dotted;
+    border-radius:50%;
+    /* animation-name:spinloader;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
+    animation-delay:0s;
+    animation-iteration-count:infinite;
+    animation-direction:normal; */
+    animation:spinloader 0.75s ease-in 0s infinite normal;
+    
+}
+
+@keyframes spinloader {
+    from
+    {
+        transform:rotate(0deg);
+    }
+    to
+    {
+        transform:rotate(360deg);
+    }
+}
+
+#div2{
+    font-size: 20px;
+    position: fixed;
+    top:45%;
+    left:45%;
+}
+
+body{
+    background-image:url("blur1.jpg");
+}
