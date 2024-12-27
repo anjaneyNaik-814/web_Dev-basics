@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border:2px solid black;
+    
+}
+@media(max-width : 600px){
+    div{
+        background-color: rgb(207, 14, 14);
+    }
+}
