@@ -1,0 +1,30 @@
+div{
+    height:100px;
+    width:100px;
+    border:2px solid ;
+    border-radius:50%;
+    position:fixed;
+    left:40%;
+    top:40%;
+   animation-name:colorAnimated;
+   animation-duration:0.5s;
+   /* animation-timing-function:ease-in-out; */
+   animation-delay:0.25s;
+   animation-iteration-count: infinite;
+   animation-direction:reverse;
+   
+}
+
+@keyframes colorAnimated {
+    from
+    {
+        
+        background-color: darkblue;
+    }
+
+    to
+    {
+    
+        background-color:red;
+    }
+}
