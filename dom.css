@@ -1,0 +1,21 @@
+body{
+    background-color:pink;
+}
+
+h1{
+    background-color:yellow;
+}
+
+button{
+    background-color:green;
+    color:white;
+}
+
+.class{
+    height:100px;
+    width:100px;
+    background-color:skyblue;
+    border:2px solid black;
+    margin: 5px 0 0 0 ;
+    text-align:center;
+}
